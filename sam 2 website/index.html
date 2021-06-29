@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sam's cafe</title>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Sam's cafe</a>
+        <div class="menutoggle" onclick="togglemenu();"></div>
+            <ul class="navigation">
+                <li><a href="#" onclick="togglemenu();">home</a></li>
+                <li><a href="#about" onclick="togglemenu();">about</a></li>
+                <li><a href="#menu" onclick="togglemenu();">menu</a></li>
+                <li><a href="#contact" onclick="togglemenu();">contact us</a></li>
+            </ul>
+        </div>
+        
+        
+    </div>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>today's good mood is sponsored by coffee.</h2>
+            <p></p>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletxt">Our outlets</h2>
+                <p>Our outlets are spread across 13 states, with a total of 44 outlets and planning to reach other countries too! </p>
+            </div>
+                 <div class="col50">
+                     <div class="imgbx">
+                         <img src="images/sam/img1.png" alt="">
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <div class="col50">
+                <h2 class="titletxt">Our Menu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+                <div class="content">
+
+
+                    <div class="box">
+                     <div class="imgbx">
+                         <img src="images/sam/tea.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            turkish tea
+                        </h3>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="imgbx">
+                        <img src="images/sam/pizza.jpg" alt="">
+                   </div>
+                   <div class="text">
+                       <h3>
+                           pizza
+                       </h3>
+                   </div>
+               </div>
+
+
+               <div class="box">
+                <div class="imgbx">
+                    <img src="images/sam/cold c.jfif" alt="">
+               </div>
+               <div class="text">
+                   <h3>
+                       cold coffee
+                   </h3>
+               </div>
+           </div>
+
+
+           <div class="box">
+            <div class="imgbx">
+                <img src="images/sam/tiramisu.jpg" alt="">
+           </div>
+           <div class="text">
+               <h3>
+                   special salad
+               </h3>
+           </div>
+       </div>
+
+
+   <div class="box">
+    <div class="imgbx">
+        <img src="images/sam/waffle.jpg" alt="">
+   </div>
+   <div class="text">
+       <h3>
+           chocolate waffle
+       </h3>
+   </div>
+</div>
+            </div>
+            <div class="title">
+               <a href="" class="btn3">View all</a>
+         </div>
+
+
+    </section>
+
+
+
+<section class="contact" id="contact">
+    <div class="title">
+        <h2 class="titletxt">Contact</h2>
+        <p>Contact us for any queries and questions</p>
+    </div>
+    <div class="contactform">
+        <h3>Send message</h3>
+        <div class="inputbox">
+            <input type="text" placeholder="name">
+        </div>
+        <div class="inputbox">
+            <input type="text" placeholder="email">
+        </div>
+        <div class="inputbox">
+            <textarea placeholder="message"></textarea>
+        </div>
+        <div class="input">
+            <button class="submit" name="Send">submit</button>
+        </div>
+    </div>
+
+
+
+<script type="text/javascript">
+    
+function togglemenu(){
+    const menutoggle = document.querySelector('.menutoggle');
+    const navigation = document.querySelector('.navigation');
+    menutoggle.classList.toggle('active');
+    navigation.classList.toggle('active')
+}
+
+</script>
+</body>
+</html>
